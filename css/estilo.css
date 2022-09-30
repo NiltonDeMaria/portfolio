@@ -1,0 +1,88 @@
+﻿body {
+   /* plano de fundo */
+   background-image: url("../imagem/fundo.png");
+   background-size: 100%;
+}
+
+/* cabeçalho */
+.cab {
+   width: 100%;
+   height: 50px;
+   float: left;
+   margin-top: 20px;
+   margin-left: 0px;
+   text-align: right;
+}
+
+.cab a {
+   /* texto do cabeçalho */
+   text-decoration: none;
+   padding: 10px;
+   color: rgb(53, 5, 243);
+   font-family: "Bebas Neue", cursive;
+}
+
+.botao {
+   /*borda do texto do cabeçalho */
+   border-style: groove;
+   border-color: aquamarine;
+   border-radius: 50px;
+}
+
+.cab a:hover {
+   /* efeito do link do cabeçalho */
+   color: white;
+   border-bottom: solid 1px #0995c8;
+}
+
+img {
+   /* todas as imagens das páginas */
+   width: 200px;
+   height: 200px;
+   border-radius: 50px;
+}
+
+.imagem {
+   /* imagem do cabeçalho */
+   text-align: center;
+   margin: 10px;
+}
+
+h4 {
+   /* título do index */
+   font-size: 100px;
+   text-align: center;
+   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+   color: #3922e8;
+   margin: 10px;
+}
+
+h3 {
+   /* título de resumo, hobbie e contato */
+   font-size: 70px;
+   text-align: center;
+   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+   color: #3922e8;
+   margin: 10px;
+}
+
+p {
+   /* texto das páginas */
+   text-align: center;
+   font-size: 30px;
+   color: #3922e8;
+   font-style: oblique;
+}
+
+.imagem2 {
+   /* imagens do hobbie */
+   text-align: center;
+   margin: 10px;
+}
+
+.centro p {
+   /* fundo do texto das páginas */
+   width: 100%;
+   background-color: white;
+   margin: 10px;
+}
